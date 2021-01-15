@@ -1,4 +1,4 @@
-# translation-line-bot
+# Google翻訳bot
 
 # TL;DR
 line bot by google translator.
