@@ -4,6 +4,7 @@
 line bot by google translator.
 
 # demo
+![translation-line-bot-demo](https://user-images.githubusercontent.com/46675984/104749145-d1691300-5795-11eb-8f4e-5fc085e15aaa.gif)
 
 
 # Feature
