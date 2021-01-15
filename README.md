@@ -13,4 +13,4 @@ Add a line bot and send a message (en or ja), and bot reply a message ja→en, e
 nao
 
 # License
-MIT.License
+BSD LICENSE
