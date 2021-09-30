@@ -23,10 +23,10 @@ function doPost(e) {
 
     // Translate method
     if (isJa) {
-        translatedText = LanguageApp.translate(user_message, 'ja', 'en');
+        translatedText = LanguageApp.translate(user_message, 'in', 'tch');
     }
     else {
-        translatedText = LanguageApp.translate(user_message, 'en', 'ja');
+        translatedText = LanguageApp.translate(user_message, 'tch', 'in');
     }
     reply_messages = translatedText;
 
