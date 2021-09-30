@@ -10,8 +10,8 @@ function doPost(e) {
     if (typeof reply_token === 'undefined') {
         return;
     }
-    // Is it English or Japanese
-    var isJa = false;
+    // Is it Indonesian or Traditioanl Chinese
+    var isId = false;
     // Translated text
     var translatedText = '';
     // Get message from LINE user
@@ -19,14 +19,14 @@ function doPost(e) {
     var reply_messages = '';
 
     // Check the text is Language
-    isJa = user_message.match(/[^A-Za-z.,!?\s]/gi);
+    isId = user_message.match(/[^A-Za-z.,!?\s]/gi);
 
     // Translate method
-    if (isJa) {
-        translatedText = LanguageApp.translate(user_message, 'in', 'tch');
+    if (isId) {
+        translatedText = LanguageApp.translate(user_message, 'id', 'zh-TW');
     }
     else {
-        translatedText = LanguageApp.translate(user_message, 'tch', 'in');
+        translatedText = LanguageApp.translate(user_message, 'zh-TW', 'id');
     }
     reply_messages = translatedText;
 
